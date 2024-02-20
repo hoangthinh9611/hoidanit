@@ -16,17 +16,20 @@
   "author": "Eric HoiDanIT",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "@sequelize/core": "^7.0.0-alpha.37",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.6.2"
+    "pg": "^8.11.3",
+    "sequelize": "^6.6.2",
+    "util": "^0.12.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/node": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
+    "body-parser": "^1.19.0",
     "nodemon": "^2.0.7",
     "sequelize-cli": "^6.2.0"
   }
